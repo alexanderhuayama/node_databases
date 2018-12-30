@@ -1,0 +1,30 @@
+{
+  "name": "node_databases",
+  "version": "1.0.0",
+  "description": "Connections of nodejs to databases",
+  "main": "",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "mysql": "^2.16.0",
+    "pg": "^7.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "mysql": "node ./mysql.js",
+    "postgres": "node ./postgres.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderhuayama/node_databases.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Databases"
+  ],
+  "author": "Alexander Huayama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderhuayama/node_databases/issues"
+  },
+  "homepage": "https://github.com/alexanderhuayama/node_databases#readme"
+}
