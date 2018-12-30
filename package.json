@@ -5,13 +5,15 @@
   "main": "",
   "dependencies": {
     "dotenv": "^6.2.0",
+    "mssql": "^4.3.0",
     "mysql": "^2.16.0",
     "pg": "^7.7.1"
   },
   "devDependencies": {},
   "scripts": {
     "mysql": "node ./mysql.js",
-    "postgres": "node ./postgres.js"
+    "postgres": "node ./postgres.js",
+    "sqlserver": "node ./sqlserver.js"
   },
   "repository": {
     "type": "git",
