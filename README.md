@@ -2,7 +2,7 @@
 Example of connections to databases with nodejs
 ```sh
 # Before run this demo, exec the next command
-$ mv example.env .env
+$ cp example.env .env
 
 # After, replace the data the file  .env with your data
 # DB_HOST=IP
